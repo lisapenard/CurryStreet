@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>cs castering/En</title>
+  <link rel="stylesheet" href="styles/foundation.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Cormorant+SC|Open+Sans|PT+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="images/header.jpg" class="imgbackground">
+    <div class="row">
+      <div class="medium-3 small-3 columns">
+        <!-- Logo -->
+        <a href="../indexHomeEN.html" title="Accueil" class="logoCS">
+          <img src="images/logoCS.png" alt="#">
+        </a>
+      </div>
+      <!-- menu -->
+      <div class="medium-6 small-6 columns">
+        <nav>
+          <ul>
+            <li> <a class="js-scrollTo" href="../index.html#occasions">OCCASION</a></li>
+            <li> <a class="js-scrollTo" href="../index.html#notreVision">OUR VISION</a></li>
+            <li> <a class="js-scrollTo" href="../index.html#aPropos">ABOUT</a></li>
+            <li> <a class="js-scrollTo" href="../index.html#galerie">GALLERY</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- ENG/FR -->
+      <div class="medium-2 small-2 columns">
+        <a href="indexDevisFR.html" title="Accueil" class="frFlag">
+          <img src="images/frFlag.png" alt="#">
+        </a>
+        <a href="indexDevisEN.html" title="Accueil" class="engFlag">
+          <img src="images/engFlag.png" alt="#">
+        </a>
+      </div>
+    </div>
+    <!-- title on video-->
+    <div class="textOnVideo">
+      <h2>ESTIMATE</h2>
+      <h3>Catering North India Specialties</h3>
+      <p>everywhere in France</p>
+    </div>
+  </header>
+
+
+
+
+  <!-- FIN HEADER -->
+
+  <!--TITRE + FORMULAIRE -->
+  <main>
+    <div class="columns large-12 devis">
+      <h3>MAKE AN ESTIMATE</h3>
+      <img src="images/line.png" alt="">
+      <h5>TO GET A FREE AND FAST ESTIMATE</h5>
+    </div>
+    <div class="columns large-12 vide"> </div>
+    <!-- formulaire -->
+    <span class="columns medium-3"> </span>
+    <span class="formulaire columns medium-6">
+      <form method="post" action="traitement.php">
+        <div class="columns large-4">
+          <label for="entreprise_nom">Your name/your company :</label>
+          <input type="text" name="entreprise" id="enreprise"placeholder="Your name or the name of your company" autofocus required/>
+        </div>   
+
+        <div class="columns large-4">
+          <label for="email">Mail address :</label>
+          <input type="email" name="email" id="email" placeholder="Mail address" size="30" required/>
+        </div>
+
+        <div class="columns large-4">
+          <label for="tel">Phone number :</label>
+          <input type="tel"  name="tel" id="tel" placeholder="Phone number" size="30" required />
+        </div>
+        <div class="columns large-12"> </div>
+        <hr>
+
+
+        <label for="pays">What kind of event :</label><br />
+        <select name="What kind_of_event" id="type_evenement">
+          <option value="Company">Company</option>
+          <option value="Wedding">Wedding</option>
+          <option value="italie">Cocktail/Reception</option>
+          <option value="Birthday">Birthday</option>
+          <option value="Other event">Other event</option>
+        </select>
+
+        <div class="columns large-6">
+          <label for="Date">Date of the event :</label>
+          <input type="date" name="date" required />
+        </div>
+
+        <div class="columns large-6">
+          <label for="Date">Location of the event  :</label>
+          <input type="text" name="lieu" id="lieu" placeholder="City - postal/zip code" size="30" required/>
+        </div>
+        <label for="pays">Number of guests :</label>
+        <select name="invites" id="invite">
+          <option value="france">1-20</option>
+          <option value="espagne">21-50</option>
+          <option value="italie">51-100</option>
+          <option value="royaume-uni">101-150</option>
+          <option value="canada">151-200</option>
+          <option value="canada">200+</option>
+        </select>
+        <br>
+        <label for="Vaisselle">What type of dishes ?</label>
+        <input type="radio" name="vaisselle" value="vaisselle" id="vaisselle" /> <label for="vaisselle">Without dishes</label>
+        <input type="radio" name="vaisselle" value="vaisselle" id="vaisselle" /> <label for="vaisselle">Disposable</label>
+        <input type="radio" name="vaisselle" value="vaisselle" id="vaisselle" /> <label for="vaisselle">Hard</label>
+        <label for="ameliorer">Information about the event :</label>
+        <textarea name="infos" id="infos" rows="10" ></textarea>
+        <input type="submit" value="Send" class="buttonEnvoyer" />
+      </form>
+    </span>
+    <span class="columns medium-3"> </span>
+    <!--  fin formulaire -->
+    <div class="columns large-12 vide">  </div>
+
+  </main>
+
+  <footer>
+    <img class="imageFooter" src="images/footer.png" alt="Footer Image">
+    <div class="footer1">
+      <div class="row">
+        <div class="medium-2 small-2 columns">
+          <img class="logoFooter" src="images/logoCS.png" alt="logoFooter" title="logoFooter" />
+        </div>
+        <div class="medium-8 small-6 columns">
+          <nav>
+            <ul class="menuFooter">
+              <li> <a href="http://www.currystreet.fr/contact/" class="contacts">CONTACTS</a></li>
+              <li> <a href="http://www.currystreet.fr/mentions-legales" class="contacts">MENTIONS LÉGALES</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="secondFooter">
+      <p>©2017 Copyright CS CATERING - Tous droits réservés</p>
+      <a href="mailto:Currystreet75@gmail.com">
+        <img class="mail" src="images/mail.png" alt="mail" title="mail" />
+      </a>
+    </div>
+  </footer>
+
+
+  <script>
+    $(document).ready(function() {
+      $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+        var page = $(this).attr('href'); // Page cible
+        var speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate({
+          scrollTop: $(page).offset().top
+        }, speed); // Go
+        return false;
+      });
+    });
+
+  </script>
+
+</body>
+
+</html>
